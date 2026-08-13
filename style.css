@@ -1,0 +1,137 @@
+body {
+   /*  background-color: teal; 
+    background-image: url(Captain_Pikachu_Horizons_Artwork.png);
+    background-position:17cm; */
+}  
+
+
+h1 {
+    background-color: aqua;
+    color: brown;
+}
+
+p {
+    color: magenta;
+    background-color: aliceblue;
+}
+
+#paragraph{
+    color: maroon;
+    background-color: azure;
+}
+
+/* #heading{
+    color: aqua;
+    background-color: black; 
+} */
+
+.headingstyle {
+    color: chocolate;
+    background-color: darkgrey;
+}
+
+{background-color: navy;
+opacity: 40%;
+}
+
+.dotted{
+border-style: dotted;
+width: 200px;
+height: 20px;
+border-color: blue;
+}
+
+.solid{
+border-style: solid; 
+width: 500px;   
+height: 10px;
+border-color: cornsilk;
+}
+
+.double{
+border-style: double;    
+}
+
+#inset{
+border-style: inset;
+border-color: darkgreen;    
+}
+
+#outset{
+    border-style: outset;
+}
+
+
+.class{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#boxmodels{
+background-color: yellow;
+border: 20px solid blue;
+opacity: 40%;
+width: 400px;
+margin: 20px;
+padding: 50px;
+}
+
+.align{
+text-align: center;
+}
+
+#class{
+    line-height: 4;
+}
+
+.letter{
+letter-spacing: 10px;
+}
+
+a{
+    color: green;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: crimson;
+}
+
+img{
+    float: inline-start;
+}
+
+.textsize{
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: bisque;
+}
+.active{
+    background-color: aqua;
+}
